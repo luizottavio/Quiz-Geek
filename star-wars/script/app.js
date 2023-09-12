@@ -1,22 +1,20 @@
 const form = document.querySelector('.form')
 const result = document.querySelector('.result')
-const correctAnswers = ['C','B','D']
-
-form.addEventListener('submit', event => {
+const correctAnswers = ['C','B','D','D']
+const formQuiz = event => {
     event.preventDefault()
-
-    // console.log('oii')
 
     let score = 0
     const userAnswers = [
         form.inputOpition1.value,
         form.inputOpition2.value,
         form.inputOpition3.value,
+        form.inputOpition4.value
     ]
 
     userAnswers.forEach((elemet, index) => {
         if(elemet === correctAnswers[index]) {
-            score+=33,33
+            score+=25
         }
     })
 
@@ -28,4 +26,6 @@ form.addEventListener('submit', event => {
         result.textContent = `Você asertou ${contar}%`
         contar++
     }, 50);
-})
+}
+
+form.addEventListener('submit', formQuiz)
