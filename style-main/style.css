@@ -1,8 +1,8 @@
 /*Sessão três// PROJETOS*/
-
+/*background:  #1b52bfa9*/
 
 .projetos{
-    background:  #1b52bfa9;
+    background: #027333;
     height: 100vh;
 }
 .titulo-projetos {
@@ -17,7 +17,8 @@
     justify-content: space-between;
     width: 60vw;
     margin-top: 60px;
-    margin-left: 20vw;
+    margin-left: 12vw;
+    max-width: 400px;
 }
 
 .conteiner-links  {
@@ -25,7 +26,7 @@
     text-align: center;
     justify-content: space-between;
     width: 65vw;
-    margin-left: 22vw;
+    margin-left: 18vw;
 }
 
 .link {
@@ -33,15 +34,18 @@
     font-family: sans-serif;
     font-size: 1.3em;
     color: #FFFF;
+    max-width: 400px;
 }
 
 .cads-quiz {
     display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    margin: 40px 20px;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin-right: 80px;
     transition: 1s;
+    
 }
 .cads-quiz:hover {
     transform: scale(1.1);
@@ -53,5 +57,6 @@
     font-weight: bold;
     padding-top: 50px;
     text-transform: uppercase;
+    max-width: 400px;
 }
 
