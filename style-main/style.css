@@ -1,62 +1,47 @@
-/*Sessão três// PROJETOS*/
-/*background:  #1b52bfa9*/
-
-.projetos{
-    background: #027333;
-    height: 100vh;
+body {
+    background: #012340;
 }
-.titulo-projetos {
+
+.titulo {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     color: #FFFF;
-    padding-top: 50px;
-}
-.conteiner-proj {
-    display: flex;
-    justify-content: space-between;
-    width: 60vw;
-    margin-top: 60px;
-    margin-left: 12vw;
-    max-width: 400px;
+    padding: 50px;
+    padding-bottom: 150px;
 }
 
-.conteiner-links  {
+.conteiner-img {
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px; 
+}
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-header {
+    display: flex;
+    max-width: 500px;
+    min-width: 200px;
+    width: 500px;
+    height: 330px;
+}
+.card-body {
     text-align: center;
-    justify-content: space-between;
-    width: 65vw;
-    margin-left: 18vw;
+    max-width: 500px;
+    min-width: 200px;
+    width: 500px;
+    padding-top: 30px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-.link {
-    display: block;
+.card-body-a {
+    color: white;
     font-family: sans-serif;
     font-size: 1.3em;
-    color: #FFFF;
-    max-width: 400px;
+    text-decoration: none;
 }
-
-.cads-quiz {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height: 300px;
-    padding: 50px;
-    margin-right: 80px;
-    transition: 1s;
-    
-}
-.cads-quiz:hover {
-    transform: scale(1.1);
-}
-
-.em-breve {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-top: 50px;
-    text-transform: uppercase;
-    max-width: 400px;
-}
-
