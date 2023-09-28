@@ -12,6 +12,10 @@ body {
   
 }
 
+main {
+    
+}
+
 .conteiner-img {
     display: flex;
     justify-content: space-evenly;
@@ -34,6 +38,10 @@ body {
 }
 .card-header:hover {
     transform: scale(1.1);
+}
+
+img {
+    width: 100%;
 }
 
 .card-body {
@@ -73,4 +81,24 @@ body {
     background-color: rgba(255, 255, 0, 0.829);
     border: 1px solid;
     border-radius: 9px; 
+}
+
+@media (max-width: 960px){
+    img {
+        width: 70vw;
+    }
+    .conteiner-img {
+        display: block;
+        justify-content: space-evenly;
+        margin-bottom: 20px; 
+    }
+    .card-header {
+        display: block;
+        max-width: 900px;
+        min-width: 320px;
+        width: 300px;
+        height: 350px;
+        margin-right: 50px;
+      
+    }
 }
