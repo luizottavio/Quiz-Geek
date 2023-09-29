@@ -25,7 +25,7 @@ form.addEventListener('submit', event => {
         if (couter === score){
             clearInterval(timer)
         }
-        result.textContent = `${couter}%`
+        result.textContent = `Você acertou ${couter}%`
         couter++
     }, 50)
 })
